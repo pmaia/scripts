@@ -2,4 +2,4 @@
 
 ENV_NAME=$1
 
-virtualenv /home/vagrant/workspace/virtualenvs/$ENV_NAME
+virtualenv /home/$(whoami)/workspace/virtualenvs/$ENV_NAME

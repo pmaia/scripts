@@ -2,4 +2,4 @@
 
 ENV_NAME=$1
 
-source /home/vagrant/workspace/virtualenvs/$ENV_NAME/bin/activate
+source /home/$(whoami)/workspace/virtualenvs/$ENV_NAME/bin/activate
