@@ -1,5 +1,0 @@
-#!/bin/bash
-
-ENV_NAME=$1
-
-source /home/$(whoami)/workspace/virtualenvs/$ENV_NAME/bin/activate
